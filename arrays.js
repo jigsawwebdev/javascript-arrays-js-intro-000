@@ -2,16 +2,14 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 
 
-const numbers = [1, 2, 3, 4];
+const array = [1, 2, 3, 4];
 var newNumArray
 function addElementToBeginningOfArray(array, element) {
 
-  array = [element, ...numbers]
+  array = [element, ...array]
   return array
 }
 addElementToBeginningOfArray(newNumArray, 'eight')
-
-
 
 
 function destructivelyAddElementToBeginningOfArray(x, y) {
@@ -19,3 +17,15 @@ function destructivelyAddElementToBeginningOfArray(x, y) {
   return x
 }
 destructivelyAddElementToBeginningOfArray(chocolateBars, 'Dove')
+
+
+function addElementToEndOfArray() {
+  
+}
+
+
+function destructivelyAddElementToEndOfArray(x, y) {
+  x.push(y)
+  return x
+}
+destructivelyAddElementToEndOfArray(chocolateBars, 'Dove')
