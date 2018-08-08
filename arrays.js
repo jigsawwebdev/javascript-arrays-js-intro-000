@@ -23,7 +23,7 @@ function addElementToEndOfArray(array, element) {
   array = [...array, element]
   return array
 }
-addElementToEndOfArray((newNumArray, 'eight')
+addElementToEndOfArray(newNumArray, 'eight')
 
 function destructivelyAddElementToEndOfArray(x, y) {
   x.push(y)
