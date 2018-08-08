@@ -43,3 +43,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array
 }
 destructivelyRemoveElementFromBeginningOfArray(array)
+
+
+var shortArray
+function removeElementFromBeginningOfArray(array) {
+  return (shortArray = array.slice(1))  
+}
+removeElementFromBeginningOfArray(array)
