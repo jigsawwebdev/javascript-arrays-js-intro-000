@@ -1,19 +1,21 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 
+
 const numbers = [1, 2, 3, 4];
+var newNumArray
+function addElementToBeginningOfArray(array, element) {
 
-function addElementToBeginningOfArray(x, y) {
-
-
-  var x = [y, ...numbers]
-  return x
+  array = [element, ...numbers]
+  return array
 }
-addElementToBeginningOfArray(newNumArray, 8)
+addElementToBeginningOfArray(newNumArray, 'eight')
+
+
+
 
 function destructivelyAddElementToBeginningOfArray(x, y) {
   x.unshift(y)
   return x
-
 }
 destructivelyAddElementToBeginningOfArray(chocolateBars, 'Dove')
