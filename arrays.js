@@ -47,6 +47,6 @@ destructivelyRemoveElementFromBeginningOfArray(array)
 
 var shortArray
 function removeElementFromBeginningOfArray(array) {
-  return (shortArray = array.slice(1))  
+  return (shortArray = array.slice(1))
 }
 removeElementFromBeginningOfArray(array)
