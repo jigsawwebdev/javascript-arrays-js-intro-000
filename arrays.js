@@ -50,3 +50,10 @@ function removeElementFromBeginningOfArray(array) {
   return (shortArray = array.slice(1))
 }
 removeElementFromBeginningOfArray(array)
+
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop()
+  return array
+}
+destructivelyRemoveElementFromEndOfArray(array)
