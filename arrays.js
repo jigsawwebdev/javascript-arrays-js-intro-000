@@ -64,4 +64,3 @@ function removeElementFromEndOfArray(array) {
   return (endArray = array.slice(0, array.length - 1))
 }
 removeElementFromEndOfArray(array)
-
