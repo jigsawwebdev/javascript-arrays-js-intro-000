@@ -19,10 +19,11 @@ function destructivelyAddElementToBeginningOfArray(x, y) {
 destructivelyAddElementToBeginningOfArray(chocolateBars, 'Dove')
 
 
-function addElementToEndOfArray() {
-
+function addElementToEndOfArray(array, element) {
+  array = [...array, element]
+  return array
 }
-
+addElementToEndOfArray((newNumArray, 'eight')
 
 function destructivelyAddElementToEndOfArray(x, y) {
   x.push(y)
